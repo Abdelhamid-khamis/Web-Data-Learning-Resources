@@ -10,7 +10,7 @@ import math as m
 from math import sin,sinh
 """
 The pythonic way to name variables is to use {snake_case} 
-{all lowercase letters} and {underscores} to separate words.
+{all lowercase letters} and {underscores} to separate words. 
 my_height = 58
 my_lat = 40
 """
@@ -791,22 +791,6 @@ Here are most of the built-in objects that are considered False in Python:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 """     Why Object-Oriented Programming?        """
 """
 Object-oriented programming has a few benefits over procedural programming, 
@@ -820,7 +804,7 @@ which is the programming style you first learned.
 - When you train a machine learning algorithm with scikit-learn, 
 you don't have to know anything about how the algorithm's code.
 """
-from sklearn import svm
+# from sklearn import svm
 X = [[0, 0], [1, 1]]
 y = [0, 1]
 clf = svm.SVC()
@@ -1679,20 +1663,20 @@ if __name__ == '__main__':
 
 # demo.py(python script)
 
-import useful_functions as uf
+# # import useful_functions as uf
 
-scores = [88, 92, 79, 93, 85]
+# scores = [88, 92, 79, 93, 85]
 
-mean = uf.mean(scores)
-curved = uf.add_five(scores)
+# mean = uf.mean(scores)
+# curved = uf.add_five(scores)
 
-mean_c = uf.mean(curved)
+# mean_c = uf.mean(curved)
 
-print("Scores:", scores)
-print("Original Mean:", mean, " New Mean:", mean_c)
+# print("Scores:", scores)
+# print("Original Mean:", mean, " New Mean:", mean_c)
 
-print(__name__)
-print(uf.__name__)
+# print(__name__)
+# print(uf.__name__)
 
 
 
@@ -1836,6 +1820,7 @@ In the following lessons we will see two ways to create ndarrays:
 """
 # We import NumPy into Python
 import numpy as np
+
 
 # We create a 1D ndarray that contains only integers
 x = np.array([1, 2, 3, 4, 5])       

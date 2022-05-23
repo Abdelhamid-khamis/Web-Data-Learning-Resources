@@ -9,6 +9,7 @@ client = Client(api_key=Pkey, api_secret=Skey)
 
 
 def format_value(valuetoformatx,fractionfactorx):
+    
 					value = valuetoformatx
 					fractionfactor = fractionfactorx
 					Precision = abs(int(f'{fractionfactor:e}'.split('e')[-1]))

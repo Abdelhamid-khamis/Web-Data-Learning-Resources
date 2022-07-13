@@ -55,7 +55,22 @@
 
 **PHP** (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
 
+- Scripting language suited for web development
+- Used in Backend "Script are executed on the server side"
+- Free
+- Open Source
+- Work with many databases and hosting services
+
+**Websites that use PHP**
+
+- Old Facebook
+- Wordpress
+- Most CMS(Content Management System)
+- Tumblr
+- Etsy
+
 > **Example:** An introductory example
+
 ```php
 <!DOCTYPE html>
 <html>

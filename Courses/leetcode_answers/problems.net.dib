@@ -1,0 +1,30 @@
+#!markdown
+
+## 217. Contains Duplicate
+   
+    Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+ 
+
+Example 1:
+
+Input: ```nums = [1,2,3,1]```<br>
+Output: ```true```
+
+#!csharp
+
+public class Solution {
+    public bool ContainsDuplicate(int[] nums) {
+        var hashSet = new HashSet<int>(nums);
+        if (hashSet.Count() < nums.Count())
+            {
+              // block of code to be executed if the condition is True
+            return true;
+            } 
+        else 
+            {
+              // block of code to be executed if the condition is False
+            return false;
+            }
+    }
+}
